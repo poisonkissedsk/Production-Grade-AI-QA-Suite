@@ -30,17 +30,18 @@ Chosen for its inclusion of **protected attributes** (race, sex), enabling real-
 
 ---
 
-## 📁 Notebooks Breakdown & QA Goals
+## 📁 Notebooks Breakdown, QA Goals & Documentation
 
-| Notebook | QA Goal | What It Tests | Link |
-|----------|---------|---------------|------|
-| **1. Screening Bias Audit** | Fairness | Checks demographic bias using Fairlearn (Demographic Parity, Equalized Odds) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vQ2EXvQa_euGTQ_Eq1iR8GPeqd73Ye7G#scrollTo=pEj5SNGUReuk) |
-| **2. XAI Explainability Testing** | Explainability | Generates global & per-candidate SHAP explanations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kLDLiAzXlic7ylHMiRnxxW6xPXyBhcKB) |
-| **3. Robustness & Stress Testing** | Robustness | Evaluates prediction stability under small input perturbations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XlVo-so3PR3Lk24kB5XckQK85zrm99Ii) |
-| **4. End-to-End Pipeline Testing** | Workflow Integrity | Simulates data ingestion → screening → bias audit → XAI reporting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gQFYKONRacg9QH_mhGef_hLZbp4QVFb0) |
-| **5. Continuous Monitoring & Drift Detection** | Monitoring | Tracks input/output drift using KS test, monitors prediction shifts | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Bs4J6dx_VQ15mIXx7kwkTkcQfbXBkA6t) |
-| **6. CI/CD Automated Testing Scripts** | Automation | Converts bias, robustness, performance checks into automated scripts for CI/CD pipelines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V7jc9G0ZlBOc1z0p8ZV9jXPiq_xXJ8HH) |
-| **7. XAI Stability & Faithfulness Testing** | XAI QA | Ensures SHAP explanations are stable, faithful, and consistent under minor changes | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hdOxIEVqnk2Ya8a9SAIuMJbpSLnCp49_) |
+| Notebook | QA Goal | What It Tests | Colab Notebook | Documentation |
+|----------|---------|---------------|-----------------|----------------|
+| **1. Screening Bias Audit** | Fairness | Checks demographic bias using Fairlearn (Demographic Parity, Equalized Odds) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vQ2EXvQa_euGTQ_Eq1iR8GPeqd73Ye7G#scrollTo=pEj5SNGUReuk) | [Notebook 1 Docs](https://docs.google.com/document/d/1XaeJNE07-tbkDrFUP4D_KudeUT_sVPnmFVNF3DMpVt4/edit) |
+| **2. XAI Explainability Testing** | Explainability | Generates global & per-candidate SHAP explanations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kLDLiAzXlic7ylHMiRnxxW6xPXyBhcKB) | [Notebook 2 Docs](https://docs.google.com/document/d/1D3n5x0FidnVHZvZgUPZsUoah9lSVkj3xrPy0CgXJ64k/edit) |
+| **3. Robustness & Stress Testing** | Robustness | Evaluates prediction stability under small input perturbations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XlVo-so3PR3Lk24kB5XckQK85zrm99Ii) | [Notebook 3 Docs](https://docs.google.com/document/d/11GmSu8J6RuTixpupezEhNk_nBz5dU0Z6SaIeBfMYOEc/edit) |
+| **4. End-to-End Pipeline Testing** | Workflow Integrity | Simulates data ingestion → screening → bias audit → XAI reporting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gQFYKONRacg9QH_mhGef_hLZbp4QVFb0) | [Notebook 4 Docs](https://docs.google.com/document/d/16deNi0SLixscYdgcJfxXDCI6xKInmoiJWpX4saZn0_g/edit) |
+| **5. Continuous Monitoring & Drift Detection** | Monitoring | Tracks input/output drift using KS test, monitors prediction shifts | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Bs4J6dx_VQ15mIXx7kwkTkcQfbXBkA6t) | [Notebook 5 Docs](https://docs.google.com/document/d/1_xyv4WgjutfLsEkhwHPmeSt9NxA6rC0Oberrp79X_Yo/edit) |
+| **6. CI/CD Automated Testing Scripts** | Automation | Converts bias, robustness, performance checks into automated scripts for CI/CD pipelines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V7jc9G0ZlBOc1z0p8ZV9jXPiq_xXJ8HH) | [Notebook 6 Docs](https://docs.google.com/document/d/1XIb7B_YL-xtaD0PFXnqsvSN73sE7-C2Zp0XJFTlirvM/edit) |
+| **7. XAI Stability & Faithfulness Testing** | XAI QA | Ensures SHAP explanations are stable, faithful, and consistent under minor changes | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hdOxIEVqnk2Ya8a9SAIuMJbpSLnCp49_) | [Notebook 7 Docs](https://docs.google.com/document/d/187AEiGEmfE949T0BS0XdwdUSmBHDozJDcmA-4riAMsg/edit) |
+
 
 ---
 
