@@ -4,7 +4,7 @@ This repository contains a **Production-Grade AI Quality Assurance (QA) Suite** 
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Simulating a real-world **AI-based hiring platform**, this suite evaluates whether the automated screening model:
 - Treats all demographic groups fairly,
@@ -45,7 +45,7 @@ Chosen for its inclusion of **protected attributes** (race, sex), enabling real-
 
 ---
 
-## 🚀 How to Use
+## Usage
 
 1. **Open any notebook via its provided Colab link.**
 2. **Click “Run All” to execute the pipeline and view results.**
@@ -53,19 +53,19 @@ Chosen for its inclusion of **protected attributes** (race, sex), enabling real-
 
 ---
 
-## ⚙️ What This Covers (QA Strategy)
+## Coverage of QA Strategies
 
-- ✅ Bias & Fairness Audits  
-- ✅ Explainability with Global/Local Insights  
-- ✅ Robustness under Perturbation / Noise  
-- ✅ Drift Monitoring Post-Deployment  
-- ✅ CI/CD Automated Testing  
-- ✅ XAI Explanation Stability & Faithfulness Checks  
+- Bias & Fairness Audits  
+- Explainability with Global/Local Insights  
+- Robustness under Perturbation / Noise  
+- Drift Monitoring Post-Deployment  
+- CI/CD Automated Testing  
+- XAI Explanation Stability & Faithfulness Checks  
 
 ---
 
 
-## 📢 Acknowledgements
+## Reason for Development 
 
 Developed as a comprehensive, production-grade QA framework for evaluating enterprise AI models, focusing on transparency, robustness, fairness, and operational reliability.
 
